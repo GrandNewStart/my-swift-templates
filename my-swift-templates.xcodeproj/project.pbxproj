@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB9097C62C733C3000F78EC7 /* SecurityUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097C52C733C3000F78EC7 /* SecurityUtils.swift */; };
+		CB9097C82C733C7600F78EC7 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097C72C733C7600F78EC7 /* KeyPair.swift */; };
+		CB9097CA2C741C7300F78EC7 /* SecurityUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097C52C733C3000F78EC7 /* SecurityUtils.swift */; };
+		CB9097CB2C741C7500F78EC7 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097C72C733C7600F78EC7 /* KeyPair.swift */; };
+		CB9097CC2C74201900F78EC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD03FA2C4DF33F004C4EF2 /* ContentView.swift */; };
+		CB9097CD2C742C6100F78EC7 /* HexUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04242C4DFBB6004C4EF2 /* HexUtils.swift */; };
+		CB9097CF2C7435D300F78EC7 /* SecurityUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097CE2C7435D300F78EC7 /* SecurityUtilsTests.swift */; };
+		CB9097D12C74360800F78EC7 /* JSONObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097D02C74360800F78EC7 /* JSONObjectTests.swift */; };
+		CB9097D32C74393E00F78EC7 /* CryptoKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097D22C74393E00F78EC7 /* CryptoKitUtils.swift */; };
+		CB9097D42C74393E00F78EC7 /* CryptoKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097D22C74393E00F78EC7 /* CryptoKitUtils.swift */; };
+		CB9097D72C743A5A00F78EC7 /* CryptoKitUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9097D52C743A5A00F78EC7 /* CryptoKitUtilsTests.swift */; };
 		CBFD03F92C4DF33F004C4EF2 /* MySwiftTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD03F82C4DF33F004C4EF2 /* MySwiftTemplateApp.swift */; };
 		CBFD03FB2C4DF33F004C4EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD03FA2C4DF33F004C4EF2 /* ContentView.swift */; };
 		CBFD03FD2C4DF341004C4EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFD03FC2C4DF341004C4EF2 /* Assets.xcassets */; };
 		CBFD04002C4DF341004C4EF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFD03FF2C4DF341004C4EF2 /* Preview Assets.xcassets */; };
-		CBFD040A2C4DF341004C4EF2 /* MySwiftTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04092C4DF341004C4EF2 /* MySwiftTemplateTests.swift */; };
+		CBFD040A2C4DF341004C4EF2 /* EncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04092C4DF341004C4EF2 /* EncodingTests.swift */; };
 		CBFD04142C4DF341004C4EF2 /* MySwiftTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04132C4DF341004C4EF2 /* MySwiftTemplateUITests.swift */; };
 		CBFD04162C4DF341004C4EF2 /* MySwiftTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04152C4DF341004C4EF2 /* MySwiftTemplateUITestsLaunchTests.swift */; };
 		CBFD04232C4DF3DC004C4EF2 /* Base64Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04222C4DF3DC004C4EF2 /* Base64Utils.swift */; };
 		CBFD04252C4DFBB6004C4EF2 /* HexUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04242C4DFBB6004C4EF2 /* HexUtils.swift */; };
 		CBFD04292C4E014D004C4EF2 /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD04282C4E014D004C4EF2 /* JSONObject.swift */; };
-		CBFD042E2C4E2616004C4EF2 /* CryptoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFD042D2C4E2616004C4EF2 /* CryptoUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,20 +48,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB9097C52C733C3000F78EC7 /* SecurityUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityUtils.swift; sourceTree = "<group>"; };
+		CB9097C72C733C7600F78EC7 /* KeyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		CB9097CE2C7435D300F78EC7 /* SecurityUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityUtilsTests.swift; sourceTree = "<group>"; };
+		CB9097D02C74360800F78EC7 /* JSONObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONObjectTests.swift; sourceTree = "<group>"; };
+		CB9097D22C74393E00F78EC7 /* CryptoKitUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoKitUtils.swift; sourceTree = "<group>"; };
+		CB9097D52C743A5A00F78EC7 /* CryptoKitUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoKitUtilsTests.swift; sourceTree = "<group>"; };
 		CBFD03F52C4DF33F004C4EF2 /* my-swift-templates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-swift-templates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD03F82C4DF33F004C4EF2 /* MySwiftTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftTemplateApp.swift; sourceTree = "<group>"; };
 		CBFD03FA2C4DF33F004C4EF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBFD03FC2C4DF341004C4EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFD03FF2C4DF341004C4EF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBFD04052C4DF341004C4EF2 /* my-swift-templatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-swift-templatesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBFD04092C4DF341004C4EF2 /* MySwiftTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftTemplateTests.swift; sourceTree = "<group>"; };
+		CBFD04092C4DF341004C4EF2 /* EncodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingTests.swift; sourceTree = "<group>"; };
 		CBFD040F2C4DF341004C4EF2 /* my-swift-templatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-swift-templatesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD04132C4DF341004C4EF2 /* MySwiftTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftTemplateUITests.swift; sourceTree = "<group>"; };
 		CBFD04152C4DF341004C4EF2 /* MySwiftTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CBFD04222C4DF3DC004C4EF2 /* Base64Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64Utils.swift; sourceTree = "<group>"; };
 		CBFD04242C4DFBB6004C4EF2 /* HexUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexUtils.swift; sourceTree = "<group>"; };
 		CBFD04282C4E014D004C4EF2 /* JSONObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONObject.swift; sourceTree = "<group>"; };
-		CBFD042D2C4E2616004C4EF2 /* CryptoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +139,10 @@
 		CBFD04082C4DF341004C4EF2 /* my-swift-templatesTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBFD04092C4DF341004C4EF2 /* MySwiftTemplateTests.swift */,
+				CBFD04092C4DF341004C4EF2 /* EncodingTests.swift */,
+				CB9097D02C74360800F78EC7 /* JSONObjectTests.swift */,
+				CB9097CE2C7435D300F78EC7 /* SecurityUtilsTests.swift */,
+				CB9097D52C743A5A00F78EC7 /* CryptoKitUtilsTests.swift */,
 			);
 			path = "my-swift-templatesTests";
 			sourceTree = "<group>";
@@ -158,7 +176,9 @@
 		CBFD042C2C4E25F9004C4EF2 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				CBFD042D2C4E2616004C4EF2 /* CryptoUtils.swift */,
+				CB9097D22C74393E00F78EC7 /* CryptoKitUtils.swift */,
+				CB9097C52C733C3000F78EC7 /* SecurityUtils.swift */,
+				CB9097C72C733C7600F78EC7 /* KeyPair.swift */,
 			);
 			path = Crypto;
 			sourceTree = "<group>";
@@ -294,9 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFD03FB2C4DF33F004C4EF2 /* ContentView.swift in Sources */,
+				CB9097C62C733C3000F78EC7 /* SecurityUtils.swift in Sources */,
 				CBFD04232C4DF3DC004C4EF2 /* Base64Utils.swift in Sources */,
-				CBFD042E2C4E2616004C4EF2 /* CryptoUtils.swift in Sources */,
+				CB9097D32C74393E00F78EC7 /* CryptoKitUtils.swift in Sources */,
 				CBFD03F92C4DF33F004C4EF2 /* MySwiftTemplateApp.swift in Sources */,
+				CB9097C82C733C7600F78EC7 /* KeyPair.swift in Sources */,
 				CBFD04252C4DFBB6004C4EF2 /* HexUtils.swift in Sources */,
 				CBFD04292C4E014D004C4EF2 /* JSONObject.swift in Sources */,
 			);
@@ -306,7 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBFD040A2C4DF341004C4EF2 /* MySwiftTemplateTests.swift in Sources */,
+				CB9097CC2C74201900F78EC7 /* ContentView.swift in Sources */,
+				CB9097CB2C741C7500F78EC7 /* KeyPair.swift in Sources */,
+				CB9097CF2C7435D300F78EC7 /* SecurityUtilsTests.swift in Sources */,
+				CB9097D42C74393E00F78EC7 /* CryptoKitUtils.swift in Sources */,
+				CB9097D12C74360800F78EC7 /* JSONObjectTests.swift in Sources */,
+				CB9097CA2C741C7300F78EC7 /* SecurityUtils.swift in Sources */,
+				CBFD040A2C4DF341004C4EF2 /* EncodingTests.swift in Sources */,
+				CB9097CD2C742C6100F78EC7 /* HexUtils.swift in Sources */,
+				CB9097D72C743A5A00F78EC7 /* CryptoKitUtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +491,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"my-swift-template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"my-swift-templates/Preview Content\"";
 				DEVELOPMENT_TEAM = Z8B766TBU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -490,7 +520,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"my-swift-template/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"my-swift-templates/Preview Content\"";
 				DEVELOPMENT_TEAM = Z8B766TBU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
